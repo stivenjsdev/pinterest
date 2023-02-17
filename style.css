@@ -1,0 +1,19 @@
+body {
+  background-color: lightblue;
+  width: 100vw;
+}
+
+.container {
+  columns: 5 200px;
+  /* column-gap: 20px; */
+  width: 100%;
+  /* padding: 30px; */
+}
+
+.item {
+  /* break-inside: avoid; */
+  max-width: 95%;
+  outline: 2px solid black;
+  outline-offset: -10px;
+  margin-bottom: 20px;
+}
