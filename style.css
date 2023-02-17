@@ -1,3 +1,26 @@
+/* CSS RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  outline: none;
+}
+
 body {
   background-color: lightblue;
   width: 100vw;
@@ -7,12 +30,14 @@ body {
   columns: 5 200px;
   /* column-gap: 20px; */
   width: 100%;
+  padding: 10px;
+  /* margin: 0 auto; */
   /* padding: 30px; */
 }
 
 .item {
   /* break-inside: avoid; */
-  max-width: 95%;
+  max-width: 100%;
   outline: 2px solid black;
   outline-offset: -10px;
   margin-bottom: 20px;
