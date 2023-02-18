@@ -188,10 +188,7 @@ body {
     display: none;
   }
   .container {
-    /* background-color: red; */
     columns: 2 100px;
-    width: 100%;
-    padding: 10px;
   }
 }
 
