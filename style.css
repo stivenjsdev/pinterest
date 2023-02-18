@@ -183,7 +183,8 @@ body {
 }
 
 @media screen and (max-width: 415px) {
-  .message, .notify {
+  .message,
+  .notify {
     display: none;
   }
   .container {
@@ -194,9 +195,9 @@ body {
   }
 }
 
-
 @media screen and (max-width: 850px) {
-  .nav-list .nav-item:nth-child(2), .nav-list .nav-item:nth-child(3) {
+  .nav-list .nav-item:nth-child(2),
+  .nav-list .nav-item:nth-child(3) {
     display: none;
   }
 }
