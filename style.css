@@ -182,9 +182,15 @@ body {
   border-radius: 20px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
   .message, .notify {
     display: none;
+  }
+  .container {
+    /* background-color: red; */
+    columns: 2 100px;
+    width: 100%;
+    padding: 10px;
   }
 }
 
