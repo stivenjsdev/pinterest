@@ -35,8 +35,7 @@ body {
   background-color: var(--background-color);
   width: 100%;
   font-family: apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica,
-    Hiragino Kaku Gothic Pro, Meiryo, Arial, sans-serif, Apple Color Emoji,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Meiryo, Arial, sans-serif, Apple Color Emoji,
     Segoe UI Emoji, Segoe UI Symbol;
 }
 
@@ -169,10 +168,6 @@ body {
   width: 100%;
   padding: 10px;
   background-color: transparent;
-  /* overflow-x: auto; */
-  /* column-gap: 20px; */
-  /* margin: 0 auto; */
-  /* padding: 30px; */
 }
 
 .item {
